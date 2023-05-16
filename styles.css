@@ -74,7 +74,7 @@ nav .nav-name{
     font-family: 'DM Sans';
     font-weight: 700;
     font-size: clamp(30px, 4vw, 48px);
-    line-height: 40px;
+    line-height: 55px;
     margin-bottom: 0.56rem;
 }
 .header-main__content .title p{
@@ -86,6 +86,8 @@ nav .nav-name{
     margin-bottom: 2.1875rem;
 }
 .header-main__content .title button.title-btn{
+    border: none; 
+    cursor: pointer;
     padding: 0.75rem 1.6875rem;
     font-family: 'DM Sans';
     font-weight: 500;
@@ -95,23 +97,32 @@ nav .nav-name{
     border: none; 
     cursor: pointer;
 }
+.header-main__content .title button.title-btn a{
+    color: #fff;
+}
 .header-main__content .title button.btn-green{
     background: #27AE60;
     border: 1px solid #27ae60;
     margin-right: 1rem;
+    line-height: 1.5rem;
 }
 .header-main__content .title button.btn-green:hover{
     background: #fff;
     border: 1px solid #27ae60;
+}
+.header-main__content .title button.btn-green:hover a {
     color:#27AE60;
 }
 .header-main__content .title button.btn-black{
     background: #171717;
     border: 1px solid #F2F2F2;
+    line-height: 1.5rem;
 }
 .header-main__content .title button.btn-black:hover{
     background: #fff;
     border: 1px solid #F2F2F2;
+}
+.header-main__content .title button.btn-black:hover a {
     color: #171717;
 }
 .portfolio-image {
@@ -231,7 +242,6 @@ section.about .social-links {
 #form {
     max-width: 47rem;
     margin: auto;
-    margin-bottom: 4.5625rem;
 }
 .input {
     display: grid;
@@ -275,6 +285,7 @@ textarea {
     border: none;
     background: #27AE60;
     cursor: pointer;
+    margin-top: 4.5625rem;
 }
 
 footer{
