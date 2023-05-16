@@ -4,17 +4,6 @@ let menu = document.getElementById("menu-list")
 
 sideNav.style.right = "-250px";
 
-/* menuBtn.onclick = function() {
-    if (sideNav.style.right == "-250px") {
-        sideNav.style.right = "0";
-        menu.src = "images/x.svg"
-    }
-    else {
-        sideNav.style.right = "-250px";
-        menu.src = "Images/align-right.png"
-
-    }
-} */
 menuBtn.addEventListener('click', function(){
     if (sideNav.style.right == "-250px") {
         sideNav.style.right = "0";
