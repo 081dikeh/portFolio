@@ -1,0 +1,117 @@
+@media screen and (max-width:799px) {
+    .nav-links {
+        display: none;
+    }
+    nav {
+        padding: 1rem 3rem;
+        margin-bottom: 2rem;
+    }
+    #menu_nav-links {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -250px;
+        padding: 6rem 3rem 3rem;
+        background: #27AE60;
+        display: block;
+    }
+    #menu_nav-links ul {
+        display: flex;
+        flex-direction: column;
+    }
+    #menu_nav-links ul li{
+        display: flex;
+        padding: 1rem 0;
+    }
+    #menu_nav-links ul li a{
+        font-family: 'DM Sans';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: #FFFFFF;
+    }
+    #menu-list {
+        z-index: 100;
+        position: relative;
+        width: 40px;
+    }
+
+    .header-main__content {
+        padding: 0 3.125rem;
+    }
+    .portfolio-image {
+        padding: 1rem;
+    }
+    #menuBtn {
+        display: block;
+    }
+
+    .inset-container {
+        padding: 0 3.1875rem;
+    }
+    .mySkills {
+        padding-block: 2rem;
+    }
+}
+
+@media screen and (max-width:699px) {
+    .header-main__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .portfolio-image {
+        max-width: 70%;
+        padding: 1rem;
+    }
+}
+@media screen and (max-width:699px) {
+    header{
+        margin-bottom: calc(0.75rem + 15vw);
+    }
+    .input {
+        grid-template-columns: 1fr;
+        margin-bottom: 2.93rem;
+    }
+    #submitBtn {
+        width: 100%;
+    }
+    .mySkills {
+        padding: 1rem 0;
+    }
+    .skill-percentage {
+        line-height: 130%;
+    }
+
+}
+@media screen and (max-width:450px) {
+
+    .portfolio-image {
+        max-width: 100%;
+        padding: 1rem;
+    }
+    .header-main__content, .inset-container {
+        padding: 0 5vw;
+    }
+    .header-main__content .title button.title-btn{
+        display: block;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+    .title{
+        margin: 0 0 1rem;
+    }
+    .mySkills {
+        grid-template-columns: 1fr 1fr;
+        padding: 0;
+    }
+    .mySkills .skill{
+        border: 1px solid #4F4F4F;
+        padding: 0.5rem;
+    }
+    .skill-percentage {
+        line-height: 120%;
+    }
+}
