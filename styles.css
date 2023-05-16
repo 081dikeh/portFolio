@@ -100,9 +100,19 @@ nav .nav-name{
     border: 1px solid #27ae60;
     margin-right: 1rem;
 }
+.header-main__content .title button.btn-green:hover{
+    background: #fff;
+    border: 1px solid #27ae60;
+    color:#27AE60;
+}
 .header-main__content .title button.btn-black{
     background: #171717;
     border: 1px solid #F2F2F2;
+}
+.header-main__content .title button.btn-black:hover{
+    background: #fff;
+    border: 1px solid #F2F2F2;
+    color: #171717;
 }
 .portfolio-image {
     max-width: 45%;
